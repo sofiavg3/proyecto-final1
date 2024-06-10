@@ -1,0 +1,337 @@
+* {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  color: #363636;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.navbar .social-navbar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+}
+.navbar .social-navbar .social-media-icon {
+  margin-right: 15px;
+  text-decoration: none !important;
+  font-weight: 400;
+}
+.navbar .social-navbar .social-media-icon .icon {
+  align-items: center;
+  display: inline-flex;
+  height: 1.5rem;
+  justify-content: center;
+  width: 1.5rem;
+}
+.navbar .nav-item {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 40px 0;
+}
+.navbar .nav-item:hover {
+  background-color: #f9f9f9;
+  border-bottom: solid 4px #00b0d8;
+  padding-bottom: 36px;
+}
+.navbar .nav-item:hover a {
+  color: #00b0d8 !important;
+}
+.navbar a {
+  color: #363636;
+}
+.navbar a:-webkit-any-link {
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #00b0d8 !important;
+}
+
+.portada-desktop-column img {
+  width: 100%;
+}
+.portada-desktop-column a {
+  text-decoration: none;
+}
+.portada-desktop-column .row {
+  height: 50%;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .portada-desktop-column .row:nth-child(1) {
+    font-size: 1rem;
+    height: 18vh;
+  }
+}
+.portada-desktop-column .row:nth-child(1) .col-6:nth-child(1) {
+  background-color: #1d2554;
+}
+.portada-desktop-column .row:nth-child(1) .col-6:nth-child(1) a {
+  color: white;
+}
+.portada-desktop-column .row:nth-child(1) .col-6:nth-child(1):hover {
+  color: #00b0d8;
+}
+.portada-desktop-column .row:nth-child(1) .col-6:nth-child(2) {
+  background-color: #8bd1ea;
+}
+.portada-desktop-column .row:nth-child(1) .col-6:nth-child(2) a {
+  color: #363636;
+}
+.portada-desktop-column .row:nth-child(1) .col-6:nth-child(2):hover {
+  color: white;
+}
+@media (max-width: 1024px) {
+  .portada-desktop-column .row:nth-child(2) {
+    font-size: 1rem;
+    height: 18vh;
+  }
+}
+.portada-desktop-column .row:nth-child(2) .col-6:nth-child(1) {
+  background-color: #b5e0f3;
+}
+.portada-desktop-column .row:nth-child(2) .col-6:nth-child(1) a {
+  color: #363636;
+}
+.portada-desktop-column .row:nth-child(2) .col-6:nth-child(1):hover {
+  color: #00b0d8;
+}
+.portada-desktop-column .row:nth-child(2) .col-6:nth-child(2) {
+  background-color: #00b0d8;
+}
+.portada-desktop-column .row:nth-child(2) .col-6:nth-child(2) a {
+  color: white;
+}
+.portada-desktop-column .row:nth-child(2) .col-6:nth-child(2):hover {
+  color: #363636;
+}
+
+.inscripcion-container {
+  color: white;
+  text-transform: uppercase;
+}
+.inscripcion-container .inscribete {
+  background-color: #00b0d8;
+}
+.inscripcion-container .inscribete h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.inscripcion-container h2 {
+  font-size: 1.5rem;
+  background-color: #1d2554;
+}
+.inscripcion-container button {
+  border: none;
+  background-color: #1d2554;
+  color: white;
+  float: inline-end;
+  width: fit-content;
+  cursor: pointer;
+}
+.inscripcion-container button:hover {
+  opacity: 0.9;
+}
+
+.card-column {
+  background-color: #00b0d8;
+}
+.card-column h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.card-column .card-footer {
+  background-color: #1d2554;
+}
+.card-column a {
+  color: #1d2554;
+}
+.card-column a:hover {
+  color: #1d2554 !important;
+  opacity: 0.9;
+}
+
+.header-alumnos {
+  background: url(img/frame.png);
+}
+.header-alumnos img {
+  height: 100%;
+}
+.header-alumnos .titulo {
+  background-color: #8bd1ea;
+}
+.header-alumnos .titulo h1 {
+  color: #1d2554;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.header-alumnos .subtitulo {
+  background-color: #00b0d8;
+}
+.header-alumnos .subtitulo h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.alumos-cards .card {
+  cursor: pointer;
+}
+.alumos-cards .card-title {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.alumos-cards .card-text {
+  font-size: 0.7rem;
+}
+
+.accesorapido-alumnos p {
+  font-weight: 800;
+  font-size: 1rem;
+}
+.accesorapido-alumnos a {
+  border: solid 1px #8bd1ea;
+  color: #8bd1ea;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 0.7rem;
+  margin-right: 20px;
+}
+.accesorapido-alumnos a:hover {
+  background-color: #8bd1ea;
+  color: #1d2554;
+}
+
+.header-extension {
+  background: url(img/frame.png);
+}
+.header-extension img {
+  height: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .header-extension img {
+    width: 100%;
+  }
+}
+.header-extension .titulo {
+  background-color: #1d2554;
+}
+.header-extension .titulo h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.header-extension .subtitulo {
+  background-color: #00b0d8;
+}
+.header-extension .subtitulo h2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.acerca i {
+  font-size: 4rem;
+}
+
+.accesos h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #1d2554;
+}
+
+.links-extension a {
+  text-decoration: none;
+  color: #1d2554;
+  padding: 6px 15px;
+  font-size: 1rem;
+  border: solid 1px #1d2554;
+  margin-right: 50px;
+}
+.links-extension a:hover {
+  color: #00b0d8;
+  border-color: #00b0d8;
+}
+@media only screen and (max-width: 767px) {
+  .links-extension a {
+    border: none;
+  }
+}
+
+.docentes-acordion h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1d2554;
+}
+.docentes-acordion h2 button {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.docentes-acordion .accordion-button:not(.collapsed) {
+  background-color: white;
+}
+.docentes-acordion .title button {
+  background-color: #00b0d8;
+  color: white;
+}
+.docentes-acordion .title .accordion-button:not(.collapsed) {
+  background-color: #00b0d8;
+}
+.docentes-acordion .title .accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+.column-6-docente h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1d2554;
+}
+.column-6-docente a {
+  color: #00b0d8;
+  border: solid 1px #00b0d8;
+  text-decoration: none;
+  padding: 8px;
+}
+.column-6-docente a:hover {
+  background-color: #1d2554;
+  border: solid 1px #1d2554;
+  color: white;
+}
+
+.institucional-herramientas {
+  background-color: #f7a600;
+  color: white;
+}
+.institucional-herramientas h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.institucional-herramientas h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.institucional-herramientas .lista {
+  background-color: #fff8eb;
+  color: #1d2554;
+}
+.institucional-herramientas .logos {
+  background-color: white;
+  padding: 10px;
+  width: fit-content;
+}
+.institucional-herramientas .logos img {
+  height: 115px;
+  max-width: 50%;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
